@@ -6,7 +6,7 @@ A simple webapp for generating a tag cloud from a user supplied hashtag by using
 
 ## Technologies
 
-React (https://reactjs.org) is used as the view layer on the frontend and the api endpoint is built as a node js lamda function.
+React (https://reactjs.org) is used as the view layer on the frontend and the api endpoint is built as a nodejs lamda function.
 
 For data transformation and statemanagement Immune.js is used which is a library for functional programming that I've been working on for a while. Some of it's features includes:
 
@@ -43,7 +43,7 @@ positional(x => x + 1) //=> [2,3,4]
 ## Development
 
 1. Clone the repository
-2. Create a .env file inside the app folder with your twitter api keys:
+2. Create a .env file inside the application root folder with your twitter api keys:
 
 ```
 CONSUMER_KEY="<CONSUMER_KEY>"
