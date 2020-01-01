@@ -1,5 +1,4 @@
 import { Task } from '../shared/immune'
-import axios from 'axios'
 import request from 'request'
 import stopWords from './resources/stop-words.js'
 
