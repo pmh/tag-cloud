@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-syntax-function-bind",
+    "./babel-plugins/aliased-imports",
+    "./babel-plugins/chain",
+    "./babel-plugins/auto-import",
+    "./babel-plugins/auto-name",
+    "@babel/plugin-transform-react-jsx"
+  ]
+}
